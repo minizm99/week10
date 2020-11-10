@@ -1,0 +1,27 @@
+p{
+    color: coral;
+    font-size: 30px;
+    text-align: center;
+    font-family:"Spoqa Han Sans Regular.ttf";
+    
+}
+@font-face{
+    font-family: Spoqa Han Sans Regular;
+    src:url('Spoqa Han Sans Regular.ttf');
+    font-weight: normal;
+}
+
+    
+.img_list li {
+    list-style: none;
+    background: url("img/logo.png") no-repeat;
+    background-size: 50px;
+    padding: 0 0 0 65px;
+    text-align: left;
+    font-size: 20px;
+}
+
+hl {
+    font-size: 10px;
+    color: red;
+}
