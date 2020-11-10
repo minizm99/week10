@@ -1,11 +1,52 @@
-body{
-    font-family: "맑은고딕", "고딕", "굴림";
+@font-face {
+    font-family: MaruBuri-Regular;
+    src:url(../font/MaruBuri-Regular.otf);
+    font-weight:normal;
 }
+
+@font-face{
+    font-family: FrankRuhlLibre-Regualr;
+    src:url(../font/FrankRuhlLibre-Regualr.ttf);
+    font-weight: normal;
+}
+
 
 header{
-    text-align: center;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    font-family: Spoqa Han Sans Regular;
 }
 
+body{
+    font-family: SeoulNamsanM;
+}
+
+p{
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.large{
+    font-family: SeoulNamsanEB;
+    font-size: x-large;
+    text-align: center;
+     text-decoration: underline overline;
+    letter-spacing: 0.3em;
+    line-height: 150%;
+}
+
+.medium{
+    font-size: medium;
+    text-align: left;
+    text-decoration: underline;
+    word-spacing: 0.6em;
+}
+
+footer{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+    padding: 10px;
+    background-color: #a8a8a8;
+    color: red;
+    text-align: center;
+}
