@@ -1,27 +1,44 @@
-p{
-    color: coral;
-    font-size: 30px;
-    text-align: center;
-    font-family:"Spoqa Han Sans Regular.ttf";
-    
+@font-face {
+    font-family: MaruBuri-Regular;
+    src:url(../font/MaruBuri-Regular.otf);
+    font-weight:normal;
 }
+
 @font-face{
-    font-family: Spoqa Han Sans Regular;
-    src:url('Spoqa Han Sans Regular.ttf');
+    font-family: FrankRuhlLibre-Regular;
+    src:url(../font/FrankRuhlLibre-Regular.ttf);
     font-weight: normal;
 }
 
-    
-.img_list li {
-    list-style: none;
-    background: url("img/logo.png") no-repeat;
-    background-size: 50px;
-    padding: 0 0 0 65px;
-    text-align: left;
-    font-size: 20px;
+p class{
+    font-family: MaruBuri-Regular;
+    font-size: 15px;
 }
 
-hl {
-    font-size: 10px;
-    color: red;
+.large{
+    font-family: MaruBuri-Regular;
+    font-size: x-large;
+    text-align: center;
+    letter-spacing: 0.3em;
+    line-height: 150%;
+}
+
+.medium{
+    font-family: MaruBuri-Regular;
+    font-size: large;
+    font-weight: 100;
+    text-align: center;
+    word-spacing: 0.6em;
+}
+
+footer{
+    font-family: MaruBuri-Regular;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+    padding: 10px;
+    background-color: darkseagreen;
+    color: white;
+    text-align: center;
 }

@@ -1,12 +1,18 @@
-   @font-face {
+@font-face {
     font-family: MaruBuri-Regular;
     src:url(../font/MaruBuri-Regular.otf);
     font-weight:normal;
 }
 
 @font-face{
-    font-family: FrankRuhlLibre-Regualar;
+    font-family: FrankRuhlLibre-Regular;
     src:url(../font/FrankRuhlLibre-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: Spoqa Han Sans Regular;
+    src:url(../font/Spoqa Han Sans Regular.ttf);
     font-weight: normal;
 }
 
@@ -49,8 +55,8 @@ p class{
     font-family: FrankRuhlLibre-Regular;
     font-size: small;
     text-align: center;
-    word-spacing: 0.6em;
-    font-weight: 800;
+    word-spacing: 0.5em;
+    font-weight: 900;
 }
 
 .small{
