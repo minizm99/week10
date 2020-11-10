@@ -31,6 +31,14 @@ p class{
     word-spacing: 0.6em;
 }
 
+.medium_1{
+    font-family: FrankRuhlLibre-Regular;
+    font-size: small;
+    text-align: center;
+    word-spacing: 0.5em;
+    font-weight: 900;
+}
+
 footer{
     font-family: MaruBuri-Regular;
     width: 80%;
