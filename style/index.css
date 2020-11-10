@@ -5,48 +5,70 @@
 }
 
 @font-face{
-    font-family: FrankRuhlLibre-Regualr;
-    src:url(../font/FrankRuhlLibre-Regualr.ttf);
+    font-family: FrankRuhlLibre-Regualar;
+    src:url(../font/FrankRuhlLibre-Regular.ttf);
     font-weight: normal;
 }
 
-
-header{
-    font-family: Spoqa Han Sans Regular;
-}
-
 body{
-    font-family: SeoulNamsanM;
+    font-family: MaruBuri-Regular;
+    text-align: center;
 }
 
-p{
+p class{
+    font-family: MaruBuri-Regular;
     font-size: 15px;
-    line-height: 20px;
 }
 
 .large{
-    font-family: SeoulNamsanEB;
-    font-size: x-large;
+    font-family: MaruBuri-Regular;
+    font-size: large;
     text-align: center;
-     text-decoration: underline overline;
     letter-spacing: 0.3em;
     line-height: 150%;
 }
 
+.large_1{
+    font-family: MaruBuri-Regular;
+    font-size: large;
+    text-align: center;
+    letter-spacing: 0.3em;
+    line-height: 150%;
+    font-weight: 900;
+}
+
 .medium{
-    font-size: medium;
-    text-align: left;
-    text-decoration: underline;
+    font-family: FrankRuhlLibre-Regular;
+    font-size: x-large;
+    font-weight: 700;
+    text-align: center;
     word-spacing: 0.6em;
 }
 
+.medium_1{
+    font-family: FrankRuhlLibre-Regular;
+    font-size: small;
+    text-align: center;
+    word-spacing: 0.6em;
+    font-weight: 800;
+}
+
+.small{
+    font-family: MaruBuri-Regular;
+    font-size: small;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+}
+
 footer{
+    font-family: MaruBuri-Regular;
     width: 80%;
     margin-right: auto;
     margin-left: auto;
     margin-top: 0;
     padding: 10px;
-    background-color: #a8a8a8;
-    color: red;
+    background-color: darkseagreen;
+    color: white;
     text-align: center;
 }
